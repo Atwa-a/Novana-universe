@@ -1,0 +1,139 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html, body, #root { height: 100vh; }
+  body {
+   
+    @apply bg-primary text-white font-sans antialiased;
+    background:
+      radial-gradient(ellipse at center, #121212 0%, #0b0b0b 70%, #000 100%),
+      linear-gradient(135deg, rgba(0,180,216,.05) 0%, rgba(212,175,55,.05) 100%);
+    overflow: hidden; /* lock page, no scrolling */
+  }
+
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,.18);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,.28); }
+}
+
+/* ===== Components ===== */
+@layer components {
+  .glass-card {
+    @apply rounded-xl backdrop-blur-xl border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,.35)];
+    background:
+      radial-gradient(900px 600px at -10% -10%, rgba(255,255,255,.06), transparent),
+      radial-gradient(900px 600px at 110% 110%, rgba(0,180,216,.07), transparent),
+      rgba(255,255,255,0.04);
+  }
+
+  /* Soft frosted box used by expanded chat */
+  .glass-soft {
+    @apply rounded-xl backdrop-blur-md border border-white/10 shadow-[0_6px_28px_rgba(0,0,0,.28)] px-0;
+    background:
+      radial-gradient(700px 400px at 80% -10%, rgba(255,255,255,.05), transparent),
+      rgba(255,255,255,0.035);
+  }
+
+  .glass-modal {
+    @apply rounded-2xl backdrop-blur-2xl border border-white/20 shadow-2xl;
+    background:
+      radial-gradient(900px 600px at 0% 0%, rgba(255,255,255,.08), transparent),
+      rgba(20,20,20,.6);
+  }
+
+  .glass-chip {
+    @apply bg-black/40 backdrop-blur-xl border border-white/15 text-gray-200 text-xs px-3 py-1 rounded-full shadow;
+  }
+
+  .space-button {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-lg px-4 py-2
+           text-white transition-all duration-300 hover:bg-white/20 hover:border-white/30 hover:scale-105;
+  }
+
+  .space-button-primary {
+    @apply bg-accent text-primary font-semibold rounded-lg px-4 py-2
+           transition-all duration-300 hover:bg-accent/90 hover:scale-105;
+  }
+
+  .space-input {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-lg px-3 py-2
+           text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/50
+           focus:border-accent/50 transition-all;
+  }
+
+  .memory-star {
+    @apply rounded-full absolute focus:outline-none
+           focus:ring-2 focus:ring-accent/50 transition-transform duration-300 hover:scale-125 cursor-pointer z-10;
+  }
+
+  .space-nav {
+    @apply fixed top-0 z-50 w-full bg-black/55 backdrop-blur-xl border-b border-white/10;
+  }
+
+  .bubble {
+    @apply inline-block max-w-[85%] rounded-xl border border-white/15 text-[13px] leading-relaxed text-gray-100;
+    padding: 10px 12px;
+    background:
+      radial-gradient(600px 300px at 0% -10%, rgba(255,255,255,.08), transparent),
+      rgba(255,255,255,0.06);
+  }
+}
+
+/* ===== Utilities ===== */
+@layer utilities {
+  .text-gradient { 
+    @apply bg-gradient-to-r from-accent to-star bg-clip-text text-transparent; 
+  }
+
+  .scroll-fade {
+    overflow-y: auto;
+    position: relative;
+    mask-image: linear-gradient(to bottom, transparent 0, black 16px, black calc(100% - 16px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, black 16px, black calc(100% - 16px), transparent 100%);
+  }
+
+  /* Star colors + glow */
+  .star-white { background: #fff; box-shadow: 0 0 8px rgba(255,255,255,.7), 0 0 16px rgba(255,255,255,.35); }
+  .star-gold  { background: #f5d76e; box-shadow: 0 0 10px rgba(245,215,110,.9), 0 0 22px rgba(245,215,110,.45); }
+  .star-pink  { background: #d66bff; box-shadow: 0 0 10px rgba(214,107,255,.9), 0 0 22px rgba(214,107,255,.45); }
+  .star-blue  { background: #7ecbff; box-shadow: 0 0 10px rgba(126,203,255,.9), 0 0 22px rgba(126,203,255,.45); }
+  .star-green { background: #8df1a6; box-shadow: 0 0 10px rgba(141,241,166,.9), 0 0 22px rgba(141,241,166,.45); }
+
+  /* === Gentle float for panels (pause on hover/use) === */
+  @keyframes gentle-float {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-6px); }
+  }
+
+  .floating {
+    animation: gentle-float 6s ease-in-out infinite;
+    transition: transform .3s ease;
+    will-change: transform;
+  }
+
+  .floating-opposite {
+    animation-direction: reverse;
+  }
+
+  .floating:hover,
+  .floating:focus-within {
+    animation-play-state: paused;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .floating, .floating-opposite { animation: none !important; }
+  }
+}

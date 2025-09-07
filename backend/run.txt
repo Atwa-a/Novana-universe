@@ -1,0 +1,21 @@
+#To run Chroma:
+//powershell -NoProfile -ExecutionPolicy Bypass -File ".\scripts\chroma-local.ps1" start
+
+*********************************************************************************
+#To run Ollama:
+//powershell -NoProfile -ExecutionPolicy Bypass -File ".\scripts\ollama-local.ps1" start
+
+# (optional: ensure models are present; safe to re-run)
+powershell -NoProfile -ExecutionPolicy Bypass -File ".\scripts\ollama-local.ps1" pull "llama3:8b"
+powershell -NoProfile -ExecutionPolicy Bypass -File ".\scripts\ollama-local.ps1" pull "nomic-embed-text:latest"
+
+# (optional health check)
+powershell -NoProfile -ExecutionPolicy Bypass -File ".\scripts\ollama-local.ps1" health
+
+*********************************************************************************
+#To run Full BACKEND:
+//npm start
+
+*********************************************************************************
+#To run Full FRONTEND:
+//npm run dev

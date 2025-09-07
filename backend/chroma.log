@@ -1,0 +1,236 @@
+[33mWARNING[0m:  [05-09-2025 13:39:41] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [05-09-2025 13:39:42] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [05-09-2025 13:39:42] Starting component System
+[36mDEBUG[0m:    [05-09-2025 13:39:42] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [05-09-2025 13:39:42] Starting component SqliteDB
+[36mDEBUG[0m:    [05-09-2025 13:39:42] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [05-09-2025 13:39:42] Starting component Posthog
+[36mDEBUG[0m:    [05-09-2025 13:39:42] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [05-09-2025 13:39:42] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [05-09-2025 13:39:42] Starting component LocalExecutor
+[36mDEBUG[0m:    [05-09-2025 13:39:42] Starting component SegmentAPI
+[31mERROR[0m:    [05-09-2025 13:39:43] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 13:39:43] Started server process [[36m10484[0m]
+[32mINFO[0m:     [05-09-2025 13:39:43] Waiting for application startup.
+[32mINFO[0m:     [05-09-2025 13:39:43] Application startup complete.
+[32mINFO[0m:     [05-09-2025 13:39:43] Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [05-09-2025 13:51:47] Shutting down
+[32mINFO[0m:     [05-09-2025 13:51:47] Waiting for application shutdown.
+[36mDEBUG[0m:    [05-09-2025 13:51:47] Stopping component System
+[36mDEBUG[0m:    [05-09-2025 13:51:47] Stopping component SegmentAPI
+[36mDEBUG[0m:    [05-09-2025 13:51:47] Stopping component LocalExecutor
+[36mDEBUG[0m:    [05-09-2025 13:51:47] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [05-09-2025 13:51:47] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [05-09-2025 13:51:47] Stopping component Posthog
+[36mDEBUG[0m:    [05-09-2025 13:51:47] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [05-09-2025 13:51:47] Stopping component SqliteDB
+[36mDEBUG[0m:    [05-09-2025 13:51:47] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [05-09-2025 13:51:47] Application shutdown complete.
+[32mINFO[0m:     [05-09-2025 13:51:47] Finished server process [[36m10484[0m]
+[33mWARNING[0m:  [05-09-2025 14:10:02] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [05-09-2025 14:10:03] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [05-09-2025 14:10:03] Starting component System
+[36mDEBUG[0m:    [05-09-2025 14:10:03] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [05-09-2025 14:10:03] Starting component SqliteDB
+[36mDEBUG[0m:    [05-09-2025 14:10:03] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [05-09-2025 14:10:03] Starting component Posthog
+[36mDEBUG[0m:    [05-09-2025 14:10:03] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [05-09-2025 14:10:03] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [05-09-2025 14:10:03] Starting component LocalExecutor
+[36mDEBUG[0m:    [05-09-2025 14:10:03] Starting component SegmentAPI
+[31mERROR[0m:    [05-09-2025 14:10:03] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 14:10:03] Started server process [[36m13144[0m]
+[32mINFO[0m:     [05-09-2025 14:10:03] Waiting for application startup.
+[32mINFO[0m:     [05-09-2025 14:10:04] Application startup complete.
+[32mINFO[0m:     [05-09-2025 14:10:04] Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [05-09-2025 14:10:23] 127.0.0.1:49501 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 14:10:23] 127.0.0.1:49502 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[31mERROR[0m:    [05-09-2025 14:10:23] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 14:10:23] 127.0.0.1:49501 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 16:35:48] 127.0.0.1:56246 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 16:35:48] 127.0.0.1:56247 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 16:35:49] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 16:35:49] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 16:35:49] 127.0.0.1:56246 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:02:15] 127.0.0.1:57654 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:02:15] 127.0.0.1:57655 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 17:02:15] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 17:02:15] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:02:15] 127.0.0.1:57654 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 17:02:31] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 17:02:31] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:02:31] 127.0.0.1:57666 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[31mERROR[0m:    [05-09-2025 17:02:33] Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:02:33] 127.0.0.1:57666 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 17:02:45] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 17:02:45] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:02:45] 127.0.0.1:57675 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:02:46] 127.0.0.1:57675 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 17:03:35] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 17:03:35] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:03:35] 127.0.0.1:57702 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:03:36] 127.0.0.1:57702 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 17:17:33] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 17:17:33] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:17:33] 127.0.0.1:58277 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:17:34] 127.0.0.1:58277 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 17:17:53] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 17:17:53] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:17:53] 127.0.0.1:58290 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:17:54] 127.0.0.1:58290 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:25:14] 127.0.0.1:58542 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:25:14] 127.0.0.1:58543 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 17:25:14] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 17:25:14] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:25:14] 127.0.0.1:58542 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 17:25:27] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 17:25:27] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:25:27] 127.0.0.1:58558 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:25:29] 127.0.0.1:58558 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 17:25:40] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 17:25:40] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 17:25:40] 127.0.0.1:58567 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 17:25:41] 127.0.0.1:58567 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[33mWARNING[0m:  [05-09-2025 19:59:12] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [05-09-2025 19:59:12] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [05-09-2025 19:59:12] Starting component System
+[36mDEBUG[0m:    [05-09-2025 19:59:12] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [05-09-2025 19:59:12] Starting component SqliteDB
+[36mDEBUG[0m:    [05-09-2025 19:59:12] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [05-09-2025 19:59:12] Starting component Posthog
+[36mDEBUG[0m:    [05-09-2025 19:59:12] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [05-09-2025 19:59:12] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [05-09-2025 19:59:12] Starting component LocalExecutor
+[36mDEBUG[0m:    [05-09-2025 19:59:12] Starting component SegmentAPI
+[31mERROR[0m:    [05-09-2025 19:59:12] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 19:59:12] Started server process [[36m15624[0m]
+[32mINFO[0m:     [05-09-2025 19:59:12] Waiting for application startup.
+[32mINFO[0m:     [05-09-2025 19:59:12] Application startup complete.
+[32mINFO[0m:     [05-09-2025 19:59:12] Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [05-09-2025 20:07:25] 127.0.0.1:61035 - "GET /api/v1/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 20:07:44] 127.0.0.1:61049 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 20:07:44] 127.0.0.1:61050 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 20:07:44] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 20:07:44] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 20:07:44] 127.0.0.1:61049 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 20:09:10] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 20:09:10] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 20:09:10] 127.0.0.1:61079 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[31mERROR[0m:    [05-09-2025 20:09:11] Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 20:09:11] 127.0.0.1:61079 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 20:09:46] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 20:09:46] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 20:09:46] 127.0.0.1:62119 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 20:09:47] 127.0.0.1:62119 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 20:50:39] Shutting down
+[32mINFO[0m:     [05-09-2025 20:50:39] Waiting for application shutdown.
+[36mDEBUG[0m:    [05-09-2025 20:50:39] Stopping component System
+[36mDEBUG[0m:    [05-09-2025 20:50:39] Stopping component SegmentAPI
+[36mDEBUG[0m:    [05-09-2025 20:50:39] Stopping component LocalExecutor
+[36mDEBUG[0m:    [05-09-2025 20:50:39] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [05-09-2025 20:50:39] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [05-09-2025 20:50:39] Stopping component Posthog
+[36mDEBUG[0m:    [05-09-2025 20:50:39] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [05-09-2025 20:50:39] Stopping component SqliteDB
+[36mDEBUG[0m:    [05-09-2025 20:50:39] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [05-09-2025 20:50:39] Application shutdown complete.
+[32mINFO[0m:     [05-09-2025 20:50:39] Finished server process [[36m15624[0m]
+[33mWARNING[0m:  [05-09-2025 20:51:19] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [05-09-2025 20:51:19] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [05-09-2025 20:51:19] Starting component System
+[36mDEBUG[0m:    [05-09-2025 20:51:19] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [05-09-2025 20:51:19] Starting component SqliteDB
+[36mDEBUG[0m:    [05-09-2025 20:51:19] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [05-09-2025 20:51:19] Starting component Posthog
+[36mDEBUG[0m:    [05-09-2025 20:51:19] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [05-09-2025 20:51:19] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [05-09-2025 20:51:19] Starting component LocalExecutor
+[36mDEBUG[0m:    [05-09-2025 20:51:19] Starting component SegmentAPI
+[31mERROR[0m:    [05-09-2025 20:51:20] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 20:51:20] Started server process [[36m13104[0m]
+[32mINFO[0m:     [05-09-2025 20:51:20] Waiting for application startup.
+[32mINFO[0m:     [05-09-2025 20:51:20] Application startup complete.
+[32mINFO[0m:     [05-09-2025 20:51:20] Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [05-09-2025 20:52:19] 127.0.0.1:63620 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 20:52:19] 127.0.0.1:63621 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 20:52:19] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 20:52:19] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 20:52:19] 127.0.0.1:63620 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 21:37:14] 127.0.0.1:65434 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 21:37:14] 127.0.0.1:65436 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 21:37:14] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 21:37:14] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 21:37:14] 127.0.0.1:65434 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[33mWARNING[0m:  [05-09-2025 22:18:33] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [05-09-2025 22:18:34] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [05-09-2025 22:18:34] Starting component System
+[36mDEBUG[0m:    [05-09-2025 22:18:34] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [05-09-2025 22:18:34] Starting component SqliteDB
+[36mDEBUG[0m:    [05-09-2025 22:18:34] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [05-09-2025 22:18:34] Starting component Posthog
+[36mDEBUG[0m:    [05-09-2025 22:18:34] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [05-09-2025 22:18:34] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [05-09-2025 22:18:34] Starting component LocalExecutor
+[36mDEBUG[0m:    [05-09-2025 22:18:34] Starting component SegmentAPI
+[31mERROR[0m:    [05-09-2025 22:18:34] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 22:18:34] Started server process [[36m12464[0m]
+[32mINFO[0m:     [05-09-2025 22:18:34] Waiting for application startup.
+[32mINFO[0m:     [05-09-2025 22:18:34] Application startup complete.
+[32mINFO[0m:     [05-09-2025 22:18:34] Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [05-09-2025 22:23:07] 127.0.0.1:49411 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-09-2025 22:23:07] 127.0.0.1:49412 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 22:23:07] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 22:23:07] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 22:23:07] 127.0.0.1:49411 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [05-09-2025 22:24:31] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [05-09-2025 22:24:31] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 22:24:31] 127.0.0.1:50194 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[31mERROR[0m:    [05-09-2025 22:24:33] Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-09-2025 22:24:33] 127.0.0.1:50194 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[33mWARNING[0m:  [06-09-2025 21:29:55] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [06-09-2025 21:29:55] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [06-09-2025 21:29:55] Starting component System
+[36mDEBUG[0m:    [06-09-2025 21:29:55] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [06-09-2025 21:29:55] Starting component SqliteDB
+[36mDEBUG[0m:    [06-09-2025 21:29:56] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [06-09-2025 21:29:56] Starting component Posthog
+[36mDEBUG[0m:    [06-09-2025 21:29:56] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [06-09-2025 21:29:56] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [06-09-2025 21:29:56] Starting component LocalExecutor
+[36mDEBUG[0m:    [06-09-2025 21:29:56] Starting component SegmentAPI
+[31mERROR[0m:    [06-09-2025 21:29:56] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-09-2025 21:29:56] Started server process [[36m18656[0m]
+[32mINFO[0m:     [06-09-2025 21:29:56] Waiting for application startup.
+[32mINFO[0m:     [06-09-2025 21:29:56] Application startup complete.
+[32mINFO[0m:     [06-09-2025 21:29:56] Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [06-09-2025 21:30:24] 127.0.0.1:54516 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-09-2025 21:30:24] 127.0.0.1:54517 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-09-2025 21:30:24] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [06-09-2025 21:30:24] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-09-2025 21:30:24] 127.0.0.1:54516 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [06-09-2025 21:31:02] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [06-09-2025 21:31:02] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-09-2025 21:31:02] 127.0.0.1:55195 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[31mERROR[0m:    [06-09-2025 21:31:03] Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-09-2025 21:31:03] 127.0.0.1:55195 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[36mDEBUG[0m:    [06-09-2025 22:36:08] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [06-09-2025 22:36:08] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-09-2025 22:36:08] 127.0.0.1:62663 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-09-2025 22:36:09] 127.0.0.1:62663 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[36mDEBUG[0m:    [06-09-2025 22:37:15] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [06-09-2025 22:37:15] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-09-2025 22:37:15] 127.0.0.1:62741 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-09-2025 22:37:17] 127.0.0.1:62741 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[32mINFO[0m:     [06-09-2025 23:24:41] 127.0.0.1:63341 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-09-2025 23:24:41] 127.0.0.1:63342 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-09-2025 23:24:41] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [06-09-2025 23:24:41] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-09-2025 23:24:41] 127.0.0.1:63341 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [06-09-2025 23:55:22] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [06-09-2025 23:55:22] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-09-2025 23:55:22] 127.0.0.1:54140 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-09-2025 23:55:24] 127.0.0.1:54140 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200
+[36mDEBUG[0m:    [06-09-2025 23:58:29] Collection novana_memories already exists, returning existing collection.
+[31mERROR[0m:    [06-09-2025 23:58:29] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-09-2025 23:58:29] 127.0.0.1:54279 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-09-2025 23:58:31] 127.0.0.1:54279 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b6f878ad-2f16-4fde-aa9c-2d3efe98151d/query HTTP/1.1" 200

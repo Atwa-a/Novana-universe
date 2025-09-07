@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "CommonJS",
+    "allowJs": true,
+    "noEmit": true,
+    "esModuleInterop": true
+  },
+  "include": ["vite.config.ts"]
+}
